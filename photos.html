@@ -1,0 +1,66 @@
+
+
+{% extends 'app1/base.html' %} 
+
+{% load static %}
+
+
+{% block body_block %}
+
+
+
+<div class="class-container">
+    <h1 class="class-text">Our Campus & Activities</h1>
+
+    <p class="intro-section">At SkillBridge, learning goes beyond classrooms. Explore our workshops, 
+        live sessions, student projects, and hands-on training moments captured in our 
+        gallery. See how we empower learners with practical IT skills in real-time 
+        environments.
+    </p>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h5 class="job">Python Course Intro</h5>
+                <img src="{% static 'images/pythonImg.jpg' %}" />
+                <a href="/parentreg" class="job-btn">Enroll Now</a>
+   
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5 class="job">UI/UX Course Intro</h5>
+                <img src="{% static 'images/ui-ux.webp' %}" />
+                <a href="/parentreg" class="job-btn">Enroll Now</a>
+   
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5 class="job">JAVA Course Intro</h5>
+                <img src="{% static 'images/java.jpeg' %}" />
+                <a href="/parentreg" class="job-btn">Enroll Now</a>
+   
+            </div>
+        </div>
+
+          <div class="row">
+             <div class="col-md-4 mb-4">
+                <h5 class="job">MERN Course Intro</h5>
+                <img src="{% static 'images/mernImg.jpg' %}" />
+                <a href="/parentreg" class="job-btn">Enroll Now</a>
+   
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <h5 class="job">React JS Course Intro</h5>
+                <img src="{% static 'images/reactjs.png' %}" />
+                <a href="/parentreg" class="job-btn">Enroll Now</a>
+   
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5 class="job">Web Development Course Intro</h5>
+                <img src="{% static 'images/webDev.jpg' %}" />
+                <a href="/parentreg" class="job-btn">Enroll Now</a>
+   
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

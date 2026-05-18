@@ -1,0 +1,94 @@
+
+
+{% extends 'app1/base.html' %}
+
+{% load static %}
+
+{% block body_block %}
+
+
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+
+<img src="{% static 'images/fullstackImg.jpg' %}"  style="width:100%;"/>
+
+<div class="welcome-page">
+    <h2 class="welcome">Welcome to SkillBridge</h2>
+    <p class="welcome-text">
+        SkillBridge is a professional training institute offering courses in Web Development,
+        Python, React JS, Java, UI/UX Design, Digital Marketing, Cloud Computing, and more. 
+        Established in 2016, we focus on providing industry-oriented training with practical 
+        knowledge to help students build successful careers in the IT field.
+    </p>
+
+</div>
+
+<div>
+    <h2 class="whychoose-us">Why Choose Us?</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="{% static 'images/pythonImg.jpg' %}" alt="course">
+
+            <h2>High Standards</h2>
+
+            <p>Python Full Stack Development</p>
+            <p>HTML, CSS, JavaScript</p>
+            <p>React, Node.js, MongoDB</p>
+
+            <a href="/contact"><button>REGISTER</button></a>
+        </div>
+
+        <div class="card">
+            <img src="{% static 'images/reactjs.png' %}" alt="course">
+
+            <h2>High Standards</h2>
+
+            <p>React Development</p>
+            <p>JavaScript, React</p>
+            <p>API Integration</p>
+
+            <a href="/contact/"><button>REGISTER</button></a>
+        </div>
+
+        <div class="card">
+            <img src="{% static 'images/ui-ux.webp' %}" alt="course">
+
+            <h2>High Standards</h2>
+
+            <p>UI / UX Designing</p>
+            <p>Figma, Adobe XD</p>
+            <p>Responsive Design</p>
+
+            <a href="/contact/"><button>REGISTER</button></a>
+       </div>
+
+        <div class="card">
+            <img src="{%static 'images/java.jpeg' %}" alt="course"/>
+            <h2>High Standards</h2>
+
+            <p>Java Full Stack Development</p>
+            <p>HTML, CSS, JavaScript</p>
+            <p>Spring Boot, MySQL</p>
+            <a href="/contact/"><button>REGISTER</button></a>
+        </div>
+
+    </div>
+</div>
+
+<div>
+    <h2 class="job">Still Hunting for a Job</h2>
+    <p class="job-section"> SkillBridge is a realtime training institute offering industry-focused
+        courses in Python Full Stack Development, React JS, Node JS,
+        Web Design, UI/UX, and Digital Marketing. Our programs include
+        hands-on projects, expert mentorship, and placement assistance
+        to help you start your IT career successfully.
+    </p>
+  
+    <a href="/register" class="job-btn">REGISTER</a>
+   
+</div>
+
+
+
+{% endblock %}
+    

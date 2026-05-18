@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form method="POST">
+    {% csrf_token %}
+    
+    ENO:<input type="text" name="eno" value="{{ data.eno }}"/>
+    EName:<input type="text" name="ename" value="{{ data.ename }}"/>
+    ESal:<input type="text" name="esal" value="{{ data.esal }}"/>
+    Ecity:<input type="text" name="ecity" value="{{ data.ecity }}"/>
+    <input type="submit" value="Update"/>
+   </form>
+</body>
+</html>

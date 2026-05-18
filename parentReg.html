@@ -1,0 +1,49 @@
+{% extends 'app1/base.html' %}
+
+{% block body_block %}
+<!-- <center>
+    <h1>Employee Details</h1>
+    <table>
+        <tr>
+            <th>Employee Number</th>
+            <th>Employee Name</th>
+            <th>Employee Salary</th>
+            <th>Employee City</th>
+            <th>Action</th>
+        </tr>
+        {% for i in d %}
+        <tr>
+            <td>{{ i.eno | title}}</td>
+            <td>{{ i.ename | title }}</td>
+            <td>{{ i.esal | title}}</td>
+            <td>{{ i.ecity | title }}</td>
+            <td>
+                <a href="/update/{{ i.id }}/"><button>Update</button></a>
+                <a href="/delete/{{ i.id }}/"><button>Delete</button></a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/contact/"><button>create record</button></a>
+    <center/>
+ -->
+
+<div class="parent-container">
+    <div class="parent-reg">
+
+    <form method="POST" style="background-color:rgb(52, 52, 169)" class="parent-info">
+        <h1>Parent Registration</h1>
+        {% csrf_token %}
+        {{f.as_p}}
+        
+        
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+</div>
+
+    
+  
+{% endblock %}
