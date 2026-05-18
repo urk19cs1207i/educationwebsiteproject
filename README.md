@@ -1,11 +1,11 @@
 # educationwebsiteproject
-# 🎓 Educational Website
+# Educational Website
 
 A full-stack **Educational Website** built with **Python**, **Django**, **HTML/CSS**, and **SQLite3**. Designed to manage and deliver online courses, lessons, and student information through a clean, responsive interface.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -26,21 +26,21 @@ This Educational Website allows admins to manage courses, lessons, and student e
 
 ---
 
-## ✨ Features
+## Features
 
-- 🏠 Home page with featured courses
-- 📚 Course listing and detail pages
-- 📝 Lesson management per course
-- 👨‍🎓 Student registration and login
-- 🔐 User authentication (Login / Logout / Register)
-- 📋 Student dashboard to track enrolled courses
-- 🛠 Admin panel to manage courses, lessons, and students
-- 💾 SQLite3 database — no setup required
-- 📱 Responsive design with HTML & CSS
+- Home page with featured courses
+- Course listing and detail pages
+- Lesson management per course
+- Student registration and login
+- User authentication (Login / Logout / Register)
+- Student dashboard to track enrolled courses
+- Admin panel to manage courses, lessons, and students
+- SQLite3 database — no setup required
+- Responsive design with HTML & CSS
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer          | Technology              |
 |----------------|-------------------------|
@@ -53,7 +53,7 @@ This Educational Website allows admins to manage courses, lessons, and student e
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 educational-website/
@@ -95,7 +95,7 @@ educational-website/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -146,7 +146,7 @@ educational-website/
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 This project uses **Django's built-in authentication system**.
 
@@ -163,7 +163,7 @@ This project uses **Django's built-in authentication system**.
 
 ---
 
-## 📄 Pages & URLs
+## Pages & URLs
 
 | URL                          | Description                    |
 |------------------------------|--------------------------------|
@@ -179,7 +179,7 @@ This project uses **Django's built-in authentication system**.
 
 ---
 
-## 🛠 Admin Panel
+## Admin Panel
 
 Django's built-in admin panel is used to manage:
 
@@ -193,7 +193,7 @@ Login with your superuser credentials.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Generate your `requirements.txt` by running:
 
@@ -209,7 +209,7 @@ Django>=4.2
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <img width="941" height="409" alt="image" src="https://github.com/user-attachments/assets/9a7ef196-a1f6-46ab-a38d-667ccaab8fe4" />
 
@@ -229,21 +229,7 @@ Django>=4.2
 <img width="950" height="353" alt="image" src="https://github.com/user-attachments/assets/522f968f-6805-474f-afff-af1bc74f897c" />
 
 
-
-
-
-
-
-
-
-
-```
-[ Home Page ]   [ Course List ]   [ Course Detail ]   [ Student Dashboard ]
-```
-
----
-
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a new branch: `git checkout -b feature/your-feature`
@@ -253,14 +239,13 @@ Django>=4.2
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 👤 Author
+## Author
 
-**Your Name**
 - GitHub: [urk19cs1207i](https://github.com/urk19cs1207i)
 - LinkedIn: [Jonnalagadda Akshaya](linkedin.com/in/jonnalagadda-akshaya)
