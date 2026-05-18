@@ -1,4 +1,3 @@
-# educationwebsiteproject
 # Educational Website
 
 A full-stack **Educational Website** built with **Python**, **Django**, **HTML/CSS**, and **SQLite3**. Designed to manage and deliver online courses, lessons, and student information through a clean, responsive interface.
